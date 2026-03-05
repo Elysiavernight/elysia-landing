@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import romanticStory from"../assets/Audios/New-Page.mp3"
+import romanticStory from "../assets/Audios/New-Page.mp3"
 import {
     FaCode, FaGamepad, FaArrowLeft,
     FaGithub, FaInstagram, FaMicrophone, FaTiktok, FaYoutube, FaGlobe, FaPlay, FaPause, FaVolumeUp, FaTwitter
 } from "react-icons/fa";
 
-import { GiEightBall} from "react-icons/gi";
+import { GiEightBall } from "react-icons/gi";
 import { SiNodedotjs, SiBun, SiArchlinux, SiSqlite, SiReact, SiC, SiRust, SiZig, SiTailwindcss, SiJavascript, SiTypescript, SiHtml5, SiCss3 } from "react-icons/si";
 
 
@@ -90,19 +90,19 @@ const MusicPlayer = () => {
         const savedVolume = localStorage.getItem('music-volume');
         return savedVolume !== null ? parseFloat(savedVolume) : 0.5;
     });
-    
+
     const [isPlaying, setIsPlaying] = React.useState(false);
     const audioRef = React.useRef(null);
 
     React.useEffect(() => {
         if (audioRef.current) {
             audioRef.current.volume = volume;
-       
+
             audioRef.current.play()
                 .then(() => setIsPlaying(true))
                 .catch(() => console.log("Waiting for Trailblazer interaction..."));
         }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const togglePlay = () => {
@@ -117,7 +117,7 @@ const MusicPlayer = () => {
     const handleVolumeChange = (e) => {
         const newVol = parseFloat(e.target.value);
         setVolume(newVol);
-        
+
         if (audioRef.current) {
             audioRef.current.volume = newVol;
         }
@@ -131,10 +131,10 @@ const MusicPlayer = () => {
                 <span className="text-[10px] font-black text-pink-500 uppercase tracking-tighter">New Page - HSR</span>
             </div>
             <div className="flex items-center gap-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl p-4 rounded-3xl border-2 border-pink-200 dark:border-pink-900/50 shadow-2xl">
-               
+
                 <audio ref={audioRef} src={romanticStory} loop />
-                
-                <button 
+
+                <button
                     onClick={togglePlay}
                     className="w-12 h-12 flex items-center justify-center bg-pink-500 text-white rounded-2xl hover:scale-110 active:scale-95 transition-all shadow-lg hover:bg-pink-600"
                 >
@@ -143,14 +143,14 @@ const MusicPlayer = () => {
 
                 <div className="flex items-center gap-2">
                     <FaVolumeUp className="text-pink-400 text-sm" />
-                    <input 
-                        type="range" 
-                        min="0" 
-                        max="1" 
-                        step="0.01" 
-                        value={volume} 
+                    <input
+                        type="range"
+                        min="0"
+                        max="1"
+                        step="0.01"
+                        value={volume}
                         onChange={handleVolumeChange}
-                        className="w-24 h-1.5 bg-pink-100 dark:bg-pink-900/30 rounded-lg appearance-none cursor-pointer accent-pink-500" 
+                        className="w-24 h-1.5 bg-pink-100 dark:bg-pink-900/30 rounded-lg appearance-none cursor-pointer accent-pink-500"
                     />
                 </div>
             </div>
@@ -159,7 +159,7 @@ const MusicPlayer = () => {
 };
 const SilverWolfPage = () => {
     return (
-        
+
         <div className="min-h-screen bg-[#fefaff] dark:bg-[#0f0f14] text-gray-800 dark:text-gray-200 font-sans selection:bg-pink-200">
             <MusicPlayer />
             {/* Navigation */}
@@ -219,15 +219,15 @@ const SilverWolfPage = () => {
                             Even in a breeding ground of Destruction, There is always Love that finds the answer ❤️
                             <br />
                             <span className="text-xl opacity-70 italic font-medium mt-4 block">
-                                — Cyrene(HSR) & Amelia Brand(Interstellar)  — 
+                                — Cyrene(HSR) & Amelia Brand(Interstellar)  —
                             </span>
                         </h2>
                         <p className="text-xl text-gray-500 dark:text-gray-400 leading-relaxed italic">
                             Hi, I am SilverWolf, Also Known as Wolfie or SWolf Pờ Rào. I'm 19 years old with Specialty in Backend Development.
                             Started Programming With C now im Tackling Rust like it's An HSR MOC-12 Challenge. My Favorite Stack to use is ElysiaJS
                             Paired with React(vite) and Zig as my favorite low-level language.
-                            <br/><br/>
-                            Personally, For me, Cyrene is a role-model for me as she always reminds me that even in dire circumstances, there are hope. If you can't fulfill it today, Send it to tomorrow. 
+                            <br /><br />
+                            Personally, For me, Cyrene is a role-model for me as she always reminds me that even in dire circumstances, there are hope. If you can't fulfill it today, Send it to tomorrow.
                         </p>
                     </div>
                 </motion.section>
@@ -320,7 +320,7 @@ const SilverWolfPage = () => {
                                 { icon: <GiEightBall />, text: "Playing 8 Ball Pool" },
                                 { icon: <FaCode />, text: "Coding Random Projects" },
                                 { icon: <FaMicrophone />, text: "Singing Out Loud" },
-                                
+
                             ].map((item, i) => (
                                 <li key={i} className="flex items-center gap-4 font-bold text-gray-600 dark:text-gray-300">
                                     <span className="p-2 bg-white dark:bg-gray-800 rounded-lg text-pink-400 shadow-sm">{item.icon}</span>
@@ -358,10 +358,10 @@ const SilverWolfPage = () => {
                             </a>
                             <a href="https://www.youtube.com/@SilverWolfzz" target="_blank" className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:bg-pink-500 hover:text-white transition-all group">
                                 <FaYoutube className="text-xl" />
-                                <span className="font-bold text-sm">Zootube</span>
+                                <span className="font-bold text-sm">Youtube</span>
 
                             </a>
-                             <a href="https://x.com/WFP_HxTao" target="_blank" className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:bg-pink-500 hover:text-white transition-all group">
+                            <a href="https://x.com/WFP_HxTao" target="_blank" className="flex items-center gap-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:bg-pink-500 hover:text-white transition-all group">
                                 <FaTwitter className="text-xl" />
                                 <span className="font-bold text-sm">Twitter</span>
 
