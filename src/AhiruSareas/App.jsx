@@ -184,17 +184,15 @@ const AhiruPage = () => {
               {/* 01 */}
             </div>
             <h2 className="text-3xl font-black text-pink-500 mb-6 text-center">
-              Hah? Iya bang Atlas Clank Clank
+              One day we look back at where we started and be amazed by how far we've come
               <br />
-              OHH MAI GADDDD
-             
-              <br />
+              
               <span className="text-xl opacity-70 italic font-medium mt-4 block">
-                — Ahiru Sareas —
+                — Technoblade —
               </span>
             </h2>
             <p className="text-xl text-gray-500 dark:text-gray-400 leading-relaxed italic">
-              Lorem Ipsum Dolor Si Amet. bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+              Hi, I'm Ahiru, i'm currently a culinary student expected to graduate in 2027 and i love ducks
             </p>
           </div>
         </motion.section>
