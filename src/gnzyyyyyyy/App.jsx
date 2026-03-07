@@ -15,7 +15,7 @@ import {
   FaGlobe
 } from "react-icons/fa";
 
-import { GiShuttlecock, GiEightBall, GiConcreteBag, GiGamepad } from "react-icons/gi";
+import { GiShuttlecock, GiEightBall, GiConcreteBag, GiGamepad, GiPingPongBat } from "react-icons/gi";
 import {
   SiSpringboot,
   SiNextdotjs,
