@@ -165,10 +165,8 @@ const GnzyPage = () => {
               Audentes Fortuna Iuvat <br /> - Some Famous People -
             </h2>
             <p className="text-xl text-gray-500 dark:text-gray-400 leading-relaxed italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Hi, my name is Gnzyyyyyyy. I'm 19 Years old studying Computer Science in College.
+              I specialize in creating Fullstack projects. Node.js, MongoDB, and Python are my specialty
             </p>
           </div>
         </motion.section>
