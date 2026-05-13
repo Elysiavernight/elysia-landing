@@ -34,7 +34,7 @@ import mlbb from "./assets/games/mlbb.webp";
 import goggog from "./assets/games/mcgogo.jpeg";
 import pidorant from "./assets/games/pidorant.png";
 import wuwa from "./assets/games/wuwa.png";
-
+import mahjong from "./assets/games/mahzonk.jpg"
 // Animations
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -269,6 +269,7 @@ const ElysiaLandingPage = () => {
           logo: osuLogo,
           link: "https://osu.ppy.sh/users/10953218",
         },
+        { name : "Mahjong Soul", logo: mahjong},
         { name: "Minecraft", logo: mcLogo },
         { name: "Fnaf UCN", logo: fnafUCN },
         { name: "PUBGM", logo: pubgm },
