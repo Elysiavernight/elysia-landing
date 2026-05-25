@@ -239,7 +239,7 @@ const ElysiaLandingPage = () => {
 
   const members = [
     {
-      name: "SilverWolf",
+      name: "Rycene",
       role: "Founder, Backend-dev, Troller",
       profilePath: "/SilverWolf",
       tech: [

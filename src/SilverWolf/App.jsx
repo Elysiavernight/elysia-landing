@@ -191,7 +191,7 @@ const SilverWolfPage = () => {
                         animate={{ y: 0, opacity: 1 }}
                         className="text-6xl md:text-8xl font-black text-pink-600 dark:text-pink-400 tracking-tighter mb-4"
                     >
-                        Silver Wolf
+                        Rycene
                     </motion.h1>
                     <motion.p
                         initial={{ y: 20, opacity: 0 }}
@@ -199,7 +199,7 @@ const SilverWolfPage = () => {
                         transition={{ delay: 0.1 }}
                         className="text-pink-400 dark:text-pink-500 font-bold uppercase tracking-[0.4em] text-sm"
                     >
-                        Founder | Backend-Dev | HSR-0-Cyclist
+                        Founder | Backend-Dev | HSR-0-Cyclist | Riichi Mahjong Addict
                     </motion.p>
                 </div>
             </header>
@@ -223,7 +223,7 @@ const SilverWolfPage = () => {
                             </span>
                         </h2>
                         <p className="text-xl text-gray-500 dark:text-gray-400 leading-relaxed italic">
-                            Hi, I am SilverWolf, Also Known as Wolfie or SWolf Pờ Rào. I'm 19 years old with Specialty in Backend Development.
+                            Hi, I am Rycene, Also Known as Wolfie. I'm 20 years old with Specialty in Backend Development.
                             Started Programming With C now im Tackling Rust like it's An HSR MOC-12 Challenge. My Favorite Stack to use is ElysiaJS
                             Paired with React(vite) and Zig as my favorite low-level language.
                             <br /><br />
