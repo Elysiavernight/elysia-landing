@@ -291,7 +291,7 @@ const SilverWolfPage = () => {
                             tags={["March7th", "Server Development", "UI/UX", "ElysiaJS", "Rust"]}
                         />
                         <ProjectCard
-                            title="Internet-Cafe-backend-server(WIP)"
+                            title="Internet-Cafe-backend-server"
                             description="A Backend server for a college project. The theme is about simulating an internet cafe system"
                             githubLink="https://github.com/SE-Elysia1/SE-elysia-backend"
                             tags={["ElysiaJS", "College", "Software-Engineering", "Api-Designing"]}
