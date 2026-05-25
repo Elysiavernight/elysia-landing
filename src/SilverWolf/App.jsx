@@ -297,11 +297,18 @@ const SilverWolfPage = () => {
                             tags={["ElysiaJS", "College", "Software-Engineering", "Api-Designing"]}
                         />
                         <ProjectCard
+                            title="Toxicity Detector"
+                            description="A DistilBERT-based NLP Toxic Detection for my Research purpose at college"
+                            githubLink="https://github.com/SilverWolfiee/Toxic-Detector"
+                            tags={["DistilBERT", "NLP", "Toxic-Detector", "ElysiaJS"]}
+                        />
+                        <ProjectCard
                             title="Hello, World!"
                             description="A simple Hello-World repository where i try to write Hello, World in all the languages i've known to remember Cyrene's Heroic Story for Amphoreus"
                             githubLink="https://github.com/SilverWolfiee/Hello-World"
                             tags={["HSR", "Cyrene", "Amphoreus", "Irontomb", "Scepter δ-me13"]}
                         />
+                        
                     </div>
                 </section>
                 <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-100 dark:via-pink-900/30 to-transparent my-16" />
