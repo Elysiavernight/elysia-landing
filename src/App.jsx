@@ -15,14 +15,11 @@ import {
 import { GiEightBall, GiShuttlecock } from "react-icons/gi";
 import { motion } from "framer-motion";
 
-
 // Member PFPs
 import cirengPfp from "./assets/cirengavatar.png";
 import gnzyPfp from "./assets/ayame.jpeg";
 import ahiruPfp from "./assets/sareas.jpeg";
 import susien from "./assets/susien.jpg";
-
-
 
 // Import Game Logos here!
 import hsrLogo from "./assets/games/hsr.png";
@@ -34,7 +31,7 @@ import mlbb from "./assets/games/mlbb.webp";
 import goggog from "./assets/games/mcgogo.jpeg";
 import pidorant from "./assets/games/pidorant.png";
 import wuwa from "./assets/games/wuwa.png";
-import mahjong from "./assets/games/mahzonk.jpg"
+import mahjong from "./assets/games/mahzonk.jpg";
 // Animations
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -233,10 +230,6 @@ const MemberCard = ({
 );
 
 const ElysiaLandingPage = () => {
- 
-
-  
-
   const members = [
     {
       name: "Rycene",
@@ -269,7 +262,11 @@ const ElysiaLandingPage = () => {
           logo: osuLogo,
           link: "https://osu.ppy.sh/users/10953218",
         },
-        { name : "Mahjong Soul", logo: mahjong},
+        {
+          name: "Mahjong Soul",
+          logo: mahjong,
+          link: "https://amae-koromo.sapk.ch/player/125042212/9",
+        },
         { name: "Minecraft", logo: mcLogo },
         { name: "Fnaf UCN", logo: fnafUCN },
         { name: "PUBGM", logo: pubgm },
@@ -321,7 +318,7 @@ const ElysiaLandingPage = () => {
           logo: osuLogo,
           link: "https://osu.ppy.sh/users/27899214",
         },
-        { name : "Mahjong Soul", logo : mahjong},
+        { name: "Mahjong Soul", logo: mahjong },
         { name: "Minecraft", logo: mcLogo },
         { name: "PUBGM", logo: pubgm },
         { name: "Magic Chess", logo: goggog },
@@ -357,7 +354,7 @@ const ElysiaLandingPage = () => {
         { name: "Minecraft", logo: mcLogo },
         { name: "Magic Chess", logo: goggog },
         { name: "Mobile Legends", logo: mlbb },
-        { name : "Mahjong Soul", logo : mahjong}
+        { name: "Mahjong Soul", logo: mahjong },
       ],
       socials: [
         {
@@ -464,7 +461,8 @@ const ElysiaLandingPage = () => {
           ELYSIAVERNIGHT
         </p>
         <p className="text-gray-400 dark:text-gray-500 font-bold uppercase tracking-[0.3em] text-[10px]">
-          Powered and funded by <span className="text-pink-600">Elysiavernight</span>
+          Powered and funded by{" "}
+          <span className="text-pink-600">Elysiavernight</span>
         </p>
         <p className="text-gray-400 dark:text-gray-500 font-bold uppercase tracking-[0.3em] text-[10px] mt-2">
           © 2026 ELYSIAVERNIGHT All Rights Reserved
