@@ -321,6 +321,7 @@ const ElysiaLandingPage = () => {
           logo: osuLogo,
           link: "https://osu.ppy.sh/users/27899214",
         },
+        { name : "Mahjong Soul", logo : mahjong},
         { name: "Minecraft", logo: mcLogo },
         { name: "PUBGM", logo: pubgm },
         { name: "Magic Chess", logo: goggog },
@@ -356,6 +357,7 @@ const ElysiaLandingPage = () => {
         { name: "Minecraft", logo: mcLogo },
         { name: "Magic Chess", logo: goggog },
         { name: "Mobile Legends", logo: mlbb },
+        { name : "Mahjong Soul", logo : mahjong}
       ],
       socials: [
         {
