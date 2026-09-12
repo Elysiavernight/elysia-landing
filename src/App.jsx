@@ -261,7 +261,7 @@ const ElysiaLandingPage = () => {
                     logo: mahjong,
                     link: "https://amae-koromo.sapk.ch/player/125042212/12.9",
                 },
-                { name: "Minecraft", logo: mcLogo },
+                { name: "Minecraft", logo: mcLogo, link:"https://mcsrranked.com/stats/SilverWolfzyy" },
                 { name: "Fnaf UCN", logo: fnafUCN },
                 { name: "PUBGM", logo: pubgm },
             ],
