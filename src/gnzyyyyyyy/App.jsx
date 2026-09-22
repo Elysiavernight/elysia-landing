@@ -33,7 +33,7 @@ import {
   SiCplusplus,
 } from "react-icons/si";
 
-import gnzyPfp from "../assets/ayame.jpeg";
+import gnzyPfp from "../assets/korone.jpg";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -256,12 +256,16 @@ const GnzyPage = () => {
               {/* 01 */}
             </div>
             <h2 className="text-3xl font-black text-pink-500 mb-6 text-center">
-              Audentes Fortuna Iuvat <br /> - Some Famous People -
+              Que Sera, Sera <br /> - MGA -
             </h2>
             <p className="text-xl text-gray-500 dark:text-gray-400 leading-relaxed italic">
               Hi, my name is Gnzyyyyyyy. I'm 19 Years old studying Computer
               Science in College. I specialize in creating Fullstack projects.
-              Node.js, MongoDB, and Python are my specialty
+              Node.js, MongoDB, and Python are my specialty.
+              <br />
+              <br />
+              Currently taking internship in a IT Consultant company as an Application Developer. 
+              Developed and contributed some real-life projects based on what client needs.
             </p>
           </div>
         </motion.section>
@@ -300,16 +304,37 @@ const GnzyPage = () => {
               tags={["React", "Tailwind", "Vite"]}
             />
             <ProjectCard
-              title="Champedia"
-              description="An all in one Sports web page, featuring the most updated news for both Sports and E-Sports"
-              githubLink="https://github.com/gnzyyyyyyy/champedia"
-              tags={["React", "Springboot", "Java", "Advance-OOP"]}
+              title="Administrative POS System"
+              description="POS System for a retail companies. Contains ERP-like features such as inventory management, customer management, and sales tracking."
+              tags={["React", "Tailwind", "Vite", "Golang", "PostgreSQL"]}
+            />
+            <ProjectCard
+              title="Seal Verification OCR System"
+              description="Backend logic integrated with Qwen-VL, YOLO, and PaddleOCR for a seal verification system. Identifying seal condition and seal code numbers for better business tracking."
+              tags={["Python", "PaddleOCR", "fastAPI", "Docker"]}
+            />
+            <ProjectCard
+              title="KALBE Dissolution Prediction GUI"
+              description="Helping semester 8th student on her thesis, me and my classmates developed a GUI to predict the Metformin dissolution rate for KALBE. While as predictions and machine learing we're developed by the thesis student. "
+              tags={["Next.js", "Express", "MongoDB", "Docker"]}
+            />
+            <ProjectCard
+              title="Facial Recognition System"
+              description="Facial Recognition System for a college project, developed with python openCV and next.js GUI. Contains features such as expression detection and posture detection. "
+              githubLink="https://github.com/gnzyyyyyyy/customer-service-facial-recognition-frontend"
+              tags={["Next.js", "python", "OpenCV", "Tensorflow", "FastAPI"]}
             />
             <ProjectCard
               title="Despesaz"
-              description="A full stack expense tracker page "
+              description="A simple full stack expense tracker page, tracking all your expenses and savings."
               githubLink="https://github.com/gnzyyyyyyy/Despesaz---Personal-Expense-Tracker"
-              tags={["Next.js", "React", "Node.js"]}
+              tags={["Next.js", "React", "MongoDB", "Tailwind", "Django"]}
+            />
+            <ProjectCard
+              title="RADIUS Integration with WiFi"
+              description="Developed centralized wifi access control system, integrated with WP2-Enterprise router, for a college project for network security, integrated with RADIUS protocol. "
+              githubLink="https://github.com/gnzyyyyyyy/customer-service-facial-recognition-frontend"
+              tags={["Ubuntu", "RADIUS"]}
             />
           </div>
         </section>
@@ -329,17 +354,17 @@ const GnzyPage = () => {
               {[
                 {
                   icon: <GiShuttlecock />,
-                  text: "Smashing birds in Badminton",
+                  text: "Badminton with friends",
                 },
                 { icon: <GiGamepad />, text: "Playing games" },
                 {
                   icon: <GiEightBall />,
-                  text: "Breaking Every single cue ball",
+                  text: "Biliards and Pool with friends",
                 },
                 { icon: <FaMotorcycle />, text: "Riding around in ZX/XMAX" },
                 {
                   icon: <GiPingPongBat />,
-                  text: "Playing Table Tennis during recess",
+                  text: "Playing Table Tennis during free times",
                 },
               ].map((item, i) => (
                 <li
