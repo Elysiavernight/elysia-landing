@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Ravings from "../assets/Audios/Ravings.mp3";
+import queserasera from "../assets/Audios/queserasera.mp3";
 
 import {
   FaCode,
@@ -96,11 +96,11 @@ const MusicPlayer = () => {
     <div className="fixed bottom-6 right-6 z-[100] flex flex-col items-end gap-2 group pointer-events-auto">
       <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md px-3 py-1 rounded-lg border border-pink-100 dark:border-pink-900/50 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
         <span className="text-[10px] font-black text-pink-500 uppercase tracking-tighter">
-          Ravings
+          MGA - Que sera, sera (Covered by Yuzuha Riko)
         </span>
       </div>
       <div className="flex items-center gap-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl p-4 rounded-3xl border-2 border-pink-200 dark:border-pink-900/50 shadow-2xl">
-        <audio ref={audioRef} src={Ravings} loop />
+        <audio ref={audioRef} src={queserasera} loop />
 
         <button
           onClick={togglePlay}
