@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 
 // Member PFPs
 import cirengPfp from "./assets/cirengavatar.png";
-import gnzyPfp from "./assets/ayame.jpeg";
+import gnzyPfp from "./assets/korone.jpg";
 import ahiruPfp from "./assets/sareas.jpeg";
 import susien from "./assets/susien.jpg";
 
@@ -280,13 +280,15 @@ const ElysiaLandingPage = () => {
             role: "Fullstack-dev, Dongo, Concrete-maker",
             profilePath: "/Gnzyyyyyyy",
             tech: [
-                "Java",
-                "Springboot",
                 "React",
                 "Next.js",
+                "TypeScript",
+                "JavaScript",
+                "Node.js",
+                "Golang",
+                "Springboot",
                 "PostgreSQL",
                 "MongoDB",
-                "C++",
             ],
             pfp: gnzyPfp,
             hobbies: [
