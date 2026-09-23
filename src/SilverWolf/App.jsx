@@ -365,7 +365,7 @@ const SilverWolfPage = () => {
             />
             <ProjectCard
               title="Toxicity Detector"
-              description="A DistilBERT-based NLP Toxic Detection for my Research purpose at college"
+              description="A DistilBERT-based NLP Toxic Detection. Project is succesfully presented at ICIMTECH conference"
               githubLink="https://github.com/SilverWolfiee/Toxic-Detector"
               tags={["DistilBERT", "NLP", "Toxic-Detector", "ElysiaJS"]}
             />
